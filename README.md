@@ -14,7 +14,7 @@ Contributions are the backbone of this list! If you're aware of a project that m
 
 **To submit a project:**
 
-1. [Create an issue](https://github.com/YOUR_GITHUB_USERNAME/llm-uis/issues/new).
+1. [Create an issue](https://github.com/snowfort-ai/llm-uis/issues/new).
 2. Fill out the details according to the template in the [Sample Submission issue](https://github.com/snowfort-ai/llm-uis/issues/1).
 3. Ensure your submission adheres to the listed criteria and includes all relevant details.
 4. Submissions will be reviewed and the projects list will be updated within a day.
