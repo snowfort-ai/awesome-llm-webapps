@@ -42,8 +42,8 @@ body:
       label: Does it carry context throughout conversations?
       multiple: false
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
 
   - type: dropdown
     id: conversation-history
@@ -51,8 +51,8 @@ body:
       label: Does it hold conversational history?
       multiple: false
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
 
   - type: dropdown
     id: authentication
@@ -80,8 +80,8 @@ body:
       label: Does it support rich text?
       multiple: false
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
 
   - type: dropdown
     id: image-support
@@ -89,8 +89,8 @@ body:
       label: Does it images?
       multiple: false
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
 
   - type: dropdown
     id: multi-text-prompting
@@ -98,8 +98,8 @@ body:
       label: Does it support multi-text prompting?
       multiple: false
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
 
   - type: markdown
     attributes:
@@ -112,8 +112,8 @@ body:
       label: Does it support showing RAG data sources?
       multiple: false
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
 
 
   - type: dropdown
