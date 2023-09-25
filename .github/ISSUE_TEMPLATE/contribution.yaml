@@ -15,7 +15,7 @@ body:
         - Update Project
         - Remove Project
         - Other
-      default: "New Project"
+      default: 0
     validations:
       required: true
 
