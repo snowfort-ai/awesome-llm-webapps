@@ -14,7 +14,7 @@ Contributions are the backbone of this list! If you're aware of a project that m
 
 **To submit a project:**
 
-1. [Create an issue](https://github.com/snowfort-ai/llm-uis/issues/new).
+1. [Create an issue](https://github.com/snowfort-ai/awesome-llm-webapps/issues/new?assignees=clharman&labels=new_project%2Cupdate%2Cremove&projects=&template=contribution.yaml&title=%5BLLM%5D%3A+).
 2. Ensure your submission adheres to the listed criteria and includes all relevant details.
 3. Submissions will be reviewed and the projects list will be updated within a day.
 
