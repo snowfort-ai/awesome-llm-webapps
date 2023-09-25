@@ -1,6 +1,6 @@
 # Open Source, Actively Maintained Web Apps for LLMs 💬
 
-LLM-based applications have many parts: Search backends, prompting systems, UIs, and more. To jump-start your project, this repository aggregates high-quality, functioning web applications for use cases including Chatbots, [Natural Language Interfaces](https://colinharman.substack.com/i/137091060/natural-language-interfaces-nli), Assistants, and Question Answering Systems. It compares projects along important dimensions for these use cases, to help you choose the right starting point for your application.
+Jump-start your LLM project by starting from an app, not a framework. This repository aggregates high-quality, functioning web applications for use cases including Chatbots, [Natural Language Interfaces](https://colinharman.substack.com/i/137091060/natural-language-interfaces-nli), Assistants, and Question Answering Systems. It compares projects along important dimensions for these use cases, to help you choose the right starting point for your application.
 
 To ensure the utmost quality and usability, projects must adhere to the following criteria to be included:
 
@@ -29,7 +29,7 @@ _Currently seeking submissions for:_
 - _Projects with image support_
 - _Projects in different languages e.g. Python only_
 
-# Projects Table
+# Project Table
 
 | Project                                                                                                                                                                                                                                                                                                                                      | Demo                                    | Brief Description                                   | Architecture                                         | Conversation Context Carry | Conversation History | Authentication    | Model Support                                                                         | Rich Text Support | Image Support | Multi-step Prompting | (RAG) Data Source(s)            | (RAG) Show Sources | (RAG) Data ingestion     | Quick Deploy           | Other Features                           |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- | --------------------------------------------------- | ---------------------------------------------------- | -------------------------- | -------------------- | ----------------- | ------------------------------------------------------------------------------------- | ----------------- | ------------- | -------------------- | ------------------------------- | ------------------ | ------------------------ | ---------------------- | ---------------------------------------- |
@@ -38,3 +38,19 @@ _Currently seeking submissions for:_
 | [Microsoft Azure Chat](https://github.com/microsoft/azurechat) ![License](https://img.shields.io/github/license/microsoft/azurechat) ![Language](https://img.shields.io/github/languages/top/microsoft/azurechat) ![Forks](https://img.shields.io/github/forks/microsoft/azurechat)                                                          | 🔴                                      | Azure-based private chat tenant over data and files | Next.js, LangChain.js, CosmosDB                      | 🟢                         | 🟢                   | 🟢 NextAuth       | OpenAI                                                                                | 🟢                | 🔴            | 🔴                   | 🟢 Azure Cognitive Search       | 🔴                 | 🟢 UI single-file upload | 🟢 Azure               |                                          |
 | [AWS GenAI LLM Chatbot](https://github.com/aws-samples/aws-genai-llm-chatbot) ![License](https://img.shields.io/github/license/aws-samples/aws-genai-llm-chatbot) ![Language](https://img.shields.io/github/languages/top/aws-samples/aws-genai-llm-chatbot) ![Forks](https://img.shields.io/github/forks/aws-samples/aws-genai-llm-chatbot) | 🔴                                      | AWS-based chatbot with RAG and selectable LLMs      | React frontend, LangChain.js, cloud services backend | 🟢                         | 🟢                   | 🟢 Amazon Cognito | Bedrock, SageMaker, Hugging Face Inference Endpoints, OpenAI, Anthropic, AI21, Cohere | 🔴                | 🔴            | 🔴                   | 🟢 Postgres/ Kendra/ OpenSearch | 🟢                 | 🟢 UI file upload        | 🟢 AWS                 | User-selectable model and search backend |
 
+
+# Project Details
+
+## [Hugging Face Chat UI](https://github.com/huggingface/chat-ui)
+
+
+
+## [Weaviate Verba](https://github.com/weaviate/verba)
+
+
+
+## [Microsoft Azure Chat](https://github.com/microsoft/azurechat)
+
+
+
+## [AWS GenAI LLM Chatbot](https://github.com/aws-samples/aws-genai-llm-chatbot)
