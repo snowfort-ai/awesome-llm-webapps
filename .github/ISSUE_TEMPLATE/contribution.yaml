@@ -67,7 +67,7 @@ body:
         - OAuth
         - Azure Active Directory
         - Other
-      default: "No"
+      default: 0
       multiple: true
 
   - type: markdown
