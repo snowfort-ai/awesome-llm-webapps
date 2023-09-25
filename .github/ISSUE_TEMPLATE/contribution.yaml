@@ -1,0 +1,150 @@
+name: Add a project
+description: Add an awesome LLM webapp project to this repository.
+title: "[LLM]: "
+labels: ["new_project", "update", "remove"]
+assignees:
+  - clharman
+body:
+  - type: dropdown
+    id: project
+    attributes:
+      label: Project
+      description: What changes are you making?
+      options:
+        - New Project
+        - Update Project
+        - Remove Project
+        - Other
+      default: 0
+    validations:
+      required: true
+
+  - type: input
+    id: demo
+    attributes:
+      label: Demo Details
+      description: Please provide a link to either a working demo or source-code.
+      placeholder: "https://huggingface.co/chat/"
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: Please provide a brief description of this app.
+
+  - type: markdown
+    attributes:
+      value: What technologies make up the core functionality of this app?
+
+  - type: dropdown
+    id: conversation-context-carry
+    attributes:
+      label: Does it carry context throughout conversations?
+      multiple: false
+      options:
+        - "Yes"
+        - "No"
+
+  - type: dropdown
+    id: conversation-history
+    attributes:
+      label: Does it hold conversational history?
+      multiple: false
+      options:
+        - "Yes"
+        - "No"
+
+  - type: dropdown
+    id: authentication
+    attributes:
+      label: Authentication
+      description: Is authentication provided out of the box?
+      options:
+        - No
+        - OpenID
+        - Next Auth
+        - Amazon Cognito
+        - OAuth
+        - Azure Active Directory
+        - Other
+      default: 0
+      multiple: true
+
+  - type: markdown
+    attributes:
+      value: What models are supported under-the-hood?
+
+  - type: dropdown
+    id: rich-text-support
+    attributes:
+      label: Does it support rich text?
+      multiple: false
+      options:
+        - "Yes"
+        - "No"
+
+  - type: dropdown
+    id: image-support
+    attributes:
+      label: Does it images?
+      multiple: false
+      options:
+        - "Yes"
+        - "No"
+
+  - type: dropdown
+    id: multi-text-prompting
+    attributes:
+      label: Does it support multi-text prompting?
+      multiple: false
+      options:
+        - "Yes"
+        - "No"
+
+  - type: markdown
+    attributes:
+      value: "[RAG specific] What under-the-hood data sources can this connect to?"
+
+
+  - type: dropdown
+    id: rag-show-sources
+    attributes:
+      label: Does it support showing RAG data sources?
+      multiple: false
+      options:
+        - "Yes"
+        - "No"
+
+
+  - type: dropdown
+    id: rag-data-ingestion
+    attributes:
+      label: "[RAG] Data Ingestion"
+      description: Supported ingestion patterns for RAG systems.
+      options:
+        - CLI
+        - File Upload
+        - Database connection (JDBC/ODBC)
+        - Large Filesystem
+        - Other
+      multiple: true
+
+  - type: dropdown
+    id: quick-deploy-options
+    attributes:
+      label: "Quick Deploy Options"
+      description: Supported options for quick deployment.
+      options:
+        - Hugging Face Spaces
+        - Docker
+        - Kubernetes
+        - Helm
+        - AWS Fargate
+        - AWS Lambda
+        - Azure ML
+        - Vertex AI
+      multiple: true
+
+  - type: markdown
+    attributes:
+      value: "Other Features"
